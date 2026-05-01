@@ -1,103 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Yahya | Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
-            color: #1a1a1a;
-        }
+  <title>Muhammad Yahya | Electrical Engineering Portfolio</title>
+  <meta name="description" content="Portfolio of Muhammad Yahya, an Electrical Engineering student at GIKI interested in Python, robotics, Fusion 360, and future EV systems." />
+  <meta name="keywords" content="Muhammad Yahya, GIKI, Electrical Engineering, Python, Robotics, EV, Fusion 360, Portfolio" />
+  <meta name="author" content="Muhammad Yahya" />
 
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 40px 20px;
-        }
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        .hero {
-            text-align: center;
-            padding: 60px 20px;
-        }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f8fc;
+      color: #14213d;
+      line-height: 1.6;
+    }
 
-        .hero h1 {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
+    header {
+      background: linear-gradient(135deg, #0b1f3a, #0d6efd);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
 
-        .hero p {
-            font-size: 18px;
-            color: #555;
-        }
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
 
-        .section {
-            margin-top: 50px;
-        }
+    header p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+      color: #e8f1ff;
+    }
 
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-        }
+    .buttons {
+      margin-top: 25px;
+    }
 
-        a.button {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 10px 15px;
-            background-color: #0077ff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
+    .button {
+      display: inline-block;
+      margin: 8px;
+      padding: 11px 20px;
+      background: white;
+      color: #0d6efd;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
 
-        .contact a {
-            color: #0077ff;
-            text-decoration: none;
-        }
-    </style>
+    .button:hover {
+      transform: translateY(-2px);
+      background: #e8f1ff;
+    }
+
+    .container {
+      max-width: 1050px;
+      margin: auto;
+      padding: 45px 20px;
+    }
+
+    section {
+      margin-bottom: 35px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+      border: 1px solid #e7edf5;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #0b1f3a;
+      font-size: 26px;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+      color: #0d6efd;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .skill-box {
+      background: #f5f8fc;
+      padding: 18px;
+      border-radius: 12px;
+      border: 1px solid #e1e8f0;
+    }
+
+    .project-button {
+      background: #0d6efd;
+      color: white;
+    }
+
+    .project-button:hover {
+      background: #0958c9;
+    }
+
+    .contact a {
+      color: #0d6efd;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #667085;
+      font-size: 14px;
+    }
+  </style>
 </head>
+
 <body>
 
-    <div class="container">
+  <header>
+    <h1>Muhammad Yahya</h1>
+    <p>
+      Electrical Engineering student at GIKI, learning Python, robotics, engineering design,
+      and building toward future EV and hardware-based systems.
+    </p>
 
-        <div class="hero">
-            <h1>Muhammad Yahya</h1>
-            <p>Electrical Engineering Student | Python Learner | Robotics & EV Enthusiast</p>
-        </div>
-
-        <div class="section card">
-            <h2>About Me</h2>
-            <p>
-                I am a first-year Electrical Engineering student at GIKI with a strong interest in Python, robotics, and engineering systems.
-                I focus on learning by building real projects and understanding each part deeply.
-            </p>
-        </div>
-
-        <div class="section card">
-            <h2>Featured Project</h2>
-            <h3>WarehouseBot — Python Robot Simulator</h3>
-            <p>
-                A Python-based warehouse robot simulation built using Object-Oriented Programming.
-                The robot performs movement, pickup/drop tasks, and tracks battery usage.
-                I used Matplotlib to visualize the robot’s path and behavior.
-            </p>
-
-            <a class="button" href="https://github.com/m-yahya2006/warehousebot-python" target="_blank">
-                View Project
-            </a>
-        </div>
-
-        <div class="section card contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:m.yahyaa.2006@gmail.com">m.yahyaa.2006@gmail.com</a></p>
-        </div>
-
+    <div class="buttons">
+      <a class="button" href="https://github.com/m-yahya2006" target="_blank">GitHub</a>
+      <a class="button" href="YOUR_LINKEDIN_LINK_HERE" target="_blank">LinkedIn</a>
+      <a class="button" href="mailto:m.yahyaa.2006@gmail.com">Email Me</a>
     </div>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a first-year Electrical Engineering student at GIKI with a strong interest in Python,
+        robotics, and engineering systems. I am currently learning by building practical projects
+        instead of only studying theory. My goal is to improve my programming, problem-solving,
+        and system design skills step by step.
+      </p>
+      <br>
+      <p>
+        I am also learning Fusion 360 because I want to connect software, design, and hardware in
+        future projects, especially in robotics and electric vehicle systems.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="skill-box">
+          <h3>Python</h3>
+          <p>Learning Python through practical projects and problem-solving.</p>
+        </div>
+
+        <div class="skill-box">
+          <h3>OOP</h3>
+          <p>Using classes, objects, and structured logic in my robot project.</p>
+        </div>
+
+        <div class="skill-box">
+          <h3>Matplotlib</h3>
+          <p>Creating line and scatter plots to visualize robot movement and battery behavior.</p>
+        </div>
+
+        <div class="skill-box">
+          <h3>Fusion 360</h3>
+          <p>Currently learning engineering design and 3D modeling.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Featured Project</h2>
+      <h3>WarehouseBot — Python Robot Simulator</h3>
+      <p>
+        WarehouseBot is a Python-based warehouse delivery robot simulator built using
+        Object-Oriented Programming. The robot can move step by step, perform pickup and drop tasks,
+        track battery usage, and store movement history.
+      </p>
+      <br>
+      <p>
+        I used Matplotlib to visualize the robot path, pickup and drop positions, and battery level.
+        This project is helping me understand programming logic, task handling, and how systems can
+        be designed in a structured way.
+      </p>
+
+      <a class="button project-button" href="https://github.com/m-yahya2006/warehousebot-python" target="_blank">
+        View Project on GitHub
+      </a>
+    </section>
+
+    <section class="card">
+      <h2>Future Interests</h2>
+      <p>
+        My future interests include robotics, control systems, electric vehicles, and hardware-based
+        engineering projects. I want to keep improving my Python and engineering design skills so I
+        can eventually build real systems, not only simulations.
+      </p>
+    </section>
+
+    <section class="card contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:m.yahyaa.2006@gmail.com">m.yahyaa.2006@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/m-yahya2006" target="_blank">github.com/m-yahya2006</a></p>
+      <p>LinkedIn: <a href="YOUR_LINKEDIN_LINK_HERE" target="_blank">My LinkedIn Profile</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Muhammad Yahya. Built with GitHub Pages.
+  </footer>
 
 </body>
 </html>
