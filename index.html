@@ -4,37 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhammad Yahya | Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #1a1a1a;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .section {
+            margin-top: 50px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        a.button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #0077ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .contact a {
+            color: #0077ff;
+            text-decoration: none;
+        }
+    </style>
 </head>
-<body style="font-family: Arial; margin: 40px; background-color: #f8f9fa; color: #1a1a1a;">
+<body>
 
-    <h1>Muhammad Yahya</h1>
-    <h3>Electrical Engineering Student | Python Learner | Robotics & EV Enthusiast</h3>
+    <div class="container">
 
-    <p>
-        I am a first-year Electrical Engineering student at GIKI with an interest in Python, robotics, and engineering systems.
-        I am currently building practical projects to improve my programming and problem-solving skills.
-    </p>
+        <div class="hero">
+            <h1>Muhammad Yahya</h1>
+            <p>Electrical Engineering Student | Python Learner | Robotics & EV Enthusiast</p>
+        </div>
 
-    <hr>
+        <div class="section card">
+            <h2>About Me</h2>
+            <p>
+                I am a first-year Electrical Engineering student at GIKI with a strong interest in Python, robotics, and engineering systems.
+                I focus on learning by building real projects and understanding each part deeply.
+            </p>
+        </div>
 
-    <h2>Featured Project</h2>
-    <h3>WarehouseBot — Python Robot Simulator</h3>
-    <p>
-        A Python-based warehouse robot simulation using Object-Oriented Programming.
-        The robot performs movement, pickup/drop tasks, and tracks battery usage.
-        Visualization is done using Matplotlib.
-    </p>
+        <div class="section card">
+            <h2>Featured Project</h2>
+            <h3>WarehouseBot — Python Robot Simulator</h3>
+            <p>
+                A Python-based warehouse robot simulation built using Object-Oriented Programming.
+                The robot performs movement, pickup/drop tasks, and tracks battery usage.
+                I used Matplotlib to visualize the robot’s path and behavior.
+            </p>
 
-    <p>
-        <a href="https://github.com/m-yahya2006/warehousebot-python" target="_blank">
-            View Project on GitHub
-        </a>
-    </p>
+            <a class="button" href="https://github.com/m-yahya2006/warehousebot-python" target="_blank">
+                View Project
+            </a>
+        </div>
 
-    <hr>
+        <div class="section card contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:m.yahyaa.2006@gmail.com">m.yahyaa.2006@gmail.com</a></p>
+        </div>
 
-    <h2>Contact</h2>
-    <p>Email: m.yahyaa.2006@gmail.com</p>
+    </div>
 
 </body>
 </html>
